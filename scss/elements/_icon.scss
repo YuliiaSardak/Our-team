@@ -1,0 +1,26 @@
+.main__icon {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+
+    &:before { 
+        content: "";
+        vertical-align: super;
+        display: inline-block;
+        width: 210px;
+        height: 1px;
+        background-color: #eebf3a;  
+    }
+    &:after { 
+        content: "";
+        vertical-align: super;
+        display: inline-block;
+        width: 210px;
+        height: 1px;
+        background-color: #eebf3a;
+  
+    }
+}
+
+
+
